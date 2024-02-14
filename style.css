@@ -1,0 +1,75 @@
+body, html {
+    background-color: blanchedalmond;
+}
+h1{
+color: black;
+}
+.little-pic {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+}
+.milieu {
+    text-align: center;
+    padding: 1px;
+    margin: 20px 250px; 
+    border: solid rgba(84, 51, 11, 0.822);
+    border-radius: 4px;
+}
+#Photoprofil {
+    border-radius: 35%;
+    width: 200px;
+    height: 350px;
+    object-fit: cover;
+}
+.sports-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.poney {
+    margin: 20px;
+}
+ 
+.poney img {
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    transition: transform 0.3s ease;
+}
+ 
+.poney img:hover {
+    transform: scale(1.1);
+}
+ 
+.poney p {
+    margin-top: 10px;
+}
+
+.emailbuton {
+    display: inline-block;
+    background-image: url(https://cdn-icons-png.freepik.com/256/561/561127.png);
+    background-size: cover;
+    padding: 40px 40px;
+    margin: 10px 10px;
+}
+ 
+.emailbuton:hover {
+    transform: translateY(-3px);
+}
+.linkedin {
+    display: inline-block;
+    background-image: url(https://cdn-icons-png.flaticon.com/256/174/174857.png);
+    background-size: cover;
+    padding: 40px 40px;
+    margin: 10px 10px;
+}
+ 
+.linkedin:hover {
+    transform: translateY(-3px);
+}
